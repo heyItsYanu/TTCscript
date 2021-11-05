@@ -1,9 +1,10 @@
 # TTCscript
-a short script that replaces tamriel trade centre .exe file with a python solution
+A short script that replaces Tamriel Trade Centre .exe file with a python solution
 
 
 Instructions: 
-If you don't have python, get it from windows store
+If you don't have python, get it from windows store, and if the script does not update the price table correctly, and reports errors about missing modules, open windows terminal (cmd) and type 'python pip install whatevermodulenameismissing'
+
 1. Paste the script into C:\Users\USERNAME\Documents\Elder Scrolls Online\live\AddOns\TamrielTradeCentre
 2. Create a shortcut with
 C:\Windows\System32\cmd.exe /k python "C:\Users\USERNAME\Documents\Elder Scrolls Online\live\AddOns\TamrielTradeCentre\get.py" "eu" && exit
