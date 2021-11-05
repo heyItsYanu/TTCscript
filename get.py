@@ -7,7 +7,6 @@ url = 'https://' + sys.argv[1] + '.tamrieltradecentre.com/download/PriceTable'
 addon_dir = 'C:\\Users\\' + os.getlogin() + '\\Documents\\Elder Scrolls Online\\live\\AddOns\\TamrielTradeCentre\\'
 table_zip = addon_dir + 'PriceTable.zip'
 
-print()
 if os.path.exists(table_zip):
 	os.remove(table_zip)
 	print("deleted")
