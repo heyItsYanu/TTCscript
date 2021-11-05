@@ -3,7 +3,7 @@ a short script that replaces tamriel trade centre .exe file with a python soluti
 
 
 Instructions: 
-0. If you don't have python, get it from windows store
+If you don't have python, get it from windows store
 1. Paste the script into C:\Users\USERNAME\Documents\Elder Scrolls Online\live\AddOns\TamrielTradeCentre
 2. Create a shortcut with
 C:\Windows\System32\cmd.exe /k python "C:\Users\USERNAME\Documents\Elder Scrolls Online\live\AddOns\TamrielTradeCentre\get.py" "eu" && exit
